@@ -7,6 +7,9 @@ DNS (Domain Name System) logs are crucial for understanding network activity and
 ### 1. Search for DNS Event
 -   Open Splunk interface and navigate to the search bar.
 -   Enter the following search query to retrieve DNS events
+-   
+![Opera Snapshot_2024-07-17_203827_127 0 0 1](https://github.com/user-attachments/assets/4d35ed31-fd2c-4a08-9296-b3a526be8c5e)
+
 
 ### 2. Extract Relevant Fields
 -   Identify key fields in DNS logs such as source IP, destination IP, domain name, query type, response code, etc.
