@@ -12,6 +12,7 @@ DNS (Domain Name System) logs are crucial for understanding network activity and
 -   Identify key fields in DNS logs such as source IP, destination IP, domain name, query type, response code, etc.
 -   As mentioned below, | regex _raw="(?i)\b(dns|domain|query|response|port 53)\b": This regex searches for common DNS-related keywords in the raw event data.
 -   Example extraction command:
+-   ![Opera Snapshot_2024-07-17_203700_www youtube com](https://github.com/user-attachments/assets/2045981b-2286-4222-a668-4494b80e41b3)
 ### 3. Identify Anomalies
 -   Look for unusual patterns or anomalies in DNS activity.
 -   Example query to identify spikes
