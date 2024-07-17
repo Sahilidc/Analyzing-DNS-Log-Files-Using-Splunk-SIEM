@@ -8,7 +8,8 @@ DNS (Domain Name System) logs are crucial for understanding network activity and
 -   Open Splunk interface and navigate to the search bar.
 -   Enter the following search query to retrieve DNS events
 -   
-![Opera Snapshot_2024-07-17_203827_127 0 0 1](https://github.com/user-attachments/assets/4d35ed31-fd2c-4a08-9296-b3a526be8c5e)
+![Opera Snapshot_2024-07-17_203948_127 0 0 1](https://github.com/user-attachments/assets/24b46fe2-1903-4614-bba5-66eafbe95081)
+
 
 
 ### 2. Extract Relevant Fields
@@ -25,6 +26,9 @@ DNS (Domain Name System) logs are crucial for understanding network activity and
  ````
 index=* sourcetype=dns_sample | top fqdn, src_ip
 ````
+
+![Opera Snapshot_2024-07-17_203827_127 0 0 1](https://github.com/user-attachments/assets/4d35ed31-fd2c-4a08-9296-b3a526be8c5e)
+
 ### 5. Investigate Suspicious Domains
 -   Search for domains associated with known malicious activity or suspicious behavior.
 -   Utilize threat intelligence feeds or reputation databases to identify malicious domains such virustotal.com
